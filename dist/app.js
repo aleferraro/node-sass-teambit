@@ -97,10 +97,10 @@
 
 /***/ }),
 
-/***/ "./src/app.scss":
-/*!**********************!*\
-  !*** ./src/app.scss ***!
-  \**********************/
+/***/ "./src/style/app.scss":
+/*!****************************!*\
+  !*** ./src/style/app.scss ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -109,14 +109,14 @@
 /***/ }),
 
 /***/ 0:
-/*!*****************************************!*\
-  !*** multi ./src/app.js ./src/app.scss ***!
-  \*****************************************/
+/*!***********************************************!*\
+  !*** multi ./src/app.js ./src/style/app.scss ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\Users\the_f\OneDrive\Desktop\Documenti Ale\Boolean\Corso\node-sass-teambit\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\Users\the_f\OneDrive\Desktop\Documenti Ale\Boolean\Corso\node-sass-teambit\src\app.scss */"./src/app.scss");
+module.exports = __webpack_require__(/*! C:\Users\the_f\OneDrive\Desktop\Documenti Ale\Boolean\Corso\node-sass-teambit\src\style\app.scss */"./src/style/app.scss");
 
 
 /***/ })

@@ -1,0 +1,22 @@
+nav .container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+nav .col-10 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul > li {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
+nav ul > li > a {
+    color: $primary-color;
+    text-decoration: none;
+}
