@@ -103,6 +103,10 @@ button img {
   vertical-align: middle;
 }
 
+img {
+  max-width: 100%;
+}
+
 nav .container {
   height: 60px;
   display: flex;
@@ -122,7 +126,29 @@ nav ul > li {
 }
 
 nav ul > li > a {
-  color: black;
+  color: #58402C;
   text-decoration: none;
+}
+
+header .jumbotron {
+  display: flex;
+}
+
+header .jumbotron h1 {
+  margin-bottom: 1rem;
+}
+
+header .jumbotron p {
+  margin-bottom: 2rem;
+}
+
+header .jumbotron > .col-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header .jumbotron button {
+  margin: 0.5rem 0;
 }
 
