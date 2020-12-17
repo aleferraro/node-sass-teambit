@@ -76,6 +76,10 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #58402C;
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -131,6 +135,7 @@ nav ul > li > a {
 }
 
 header .jumbotron {
+  padding: 2rem 0;
   display: flex;
 }
 
@@ -150,5 +155,27 @@ header .jumbotron > .col-6 {
 
 header .jumbotron button {
   margin: 0.5rem 0;
+}
+
+main .container {
+  padding: 3rem 1rem;
+}
+
+main #section1 {
+  background-color: #FFE7D2;
+  text-align: center;
+}
+
+main #section1 > .container:first-child {
+  border-bottom: 1px solid #58402C;
+}
+
+main #section1 .col-4 {
+  padding: 1rem;
+}
+
+main #section1 .col-4 img {
+  width: 120px;
+  height: 120px;
 }
 

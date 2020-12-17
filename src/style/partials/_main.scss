@@ -1,0 +1,22 @@
+main {
+    .container {
+        padding: 3rem 1rem;
+        
+    }
+    #section1 {
+        background-color: $secondary-color;
+        text-align: center;
+        > .container {
+            &:first-child {
+                border-bottom: 1px solid $primary-color;
+            }
+        }
+        .col-4 {
+            padding: 1rem;
+            img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    }
+}
