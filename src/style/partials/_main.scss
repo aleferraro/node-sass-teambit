@@ -19,4 +19,15 @@ main {
             }
         }
     }
+    #section2 {
+        > .container {
+            display: flex;
+            &:nth-child(odd) {
+                margin-left: 0;
+            }
+            &:nth-child(even) {
+                margin-right: 0;
+            }
+        }
+    }
 }
