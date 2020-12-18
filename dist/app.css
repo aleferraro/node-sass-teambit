@@ -242,3 +242,48 @@ main #section3 .container .col-8 .card div:last-of-type span:first-child {
   color: #2C4792;
 }
 
+footer {
+  font-size: small;
+}
+
+footer [class*=col-] {
+  padding: 0;
+}
+
+footer .container {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+footer .container > .col-4 img {
+  width: 50px;
+  vertical-align: middle;
+}
+
+footer .container > .col-4 .col-10 {
+  font-weight: bold;
+  padding-left: 0.5rem;
+  padding-right: 3rem;
+}
+
+footer .container > .col-4 span {
+  color: #2C4792;
+}
+
+footer h4 {
+  margin-bottom: 1rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 0.4rem;
+}
+
+footer ul li > a {
+  color: #58402C;
+  text-decoration: none;
+}
+
