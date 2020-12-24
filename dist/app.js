@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\the_f\OneDrive\Desktop\Documenti Ale\Boolean\Corso\node-sass-teambit\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\Users\the_f\OneDrive\Desktop\Documenti Ale\Boolean\Corso\node-sass-teambit\src\style\app.scss */"./src/style/app.scss");
+__webpack_require__(/*! C:\Users\the_f\OneDrive\Desktop\Ale\Boolean\Corso\node-sass-teambit\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! C:\Users\the_f\OneDrive\Desktop\Ale\Boolean\Corso\node-sass-teambit\src\style\app.scss */"./src/style/app.scss");
 
 
 /***/ })

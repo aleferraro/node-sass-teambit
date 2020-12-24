@@ -18,3 +18,16 @@ header .jumbotron {
         margin: 0.5rem 0;
     }
 }
+
+@media screen and (max-width: 700px){
+    header .jumbotron {
+        flex-direction: column;
+        text-align: center;
+        &> .col-6 {
+            width: 100%;
+            &:first-of-type {
+                border-bottom: 1px solid variables.$primary-color;
+            }
+        }
+    }
+}

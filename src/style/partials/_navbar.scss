@@ -11,6 +11,9 @@ nav{
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        &.sx {
+            display: none;
+        }
     }
     ul {
         &> li {
@@ -23,3 +26,18 @@ nav{
         }
     }
 } 
+
+@media screen and (max-width: 700px) {
+    nav{
+        > .container {
+            .col-10 {
+                &.lg {
+                    display: none;
+                }
+                &.sx {
+                    display: flex;
+                }
+            }
+        }
+    }
+}
