@@ -1,6 +1,7 @@
 @use 'variables';
 
 nav{
+    background-color: variables.$color-five;
     .container {
         height: 60px;
         display: flex;
@@ -20,7 +21,7 @@ nav{
             display: inline-block;
             padding: 0 0.5rem;
             &> a {
-                color: variables.$primary-color;
+                color: variables.$color-four;
                 text-decoration: none;
             }
         }

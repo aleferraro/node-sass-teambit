@@ -7,7 +7,7 @@
 }
 
 body {
-    color: variables.$primary-color;
+    color: variables.$color-four;
 }
 
 .container {
@@ -19,14 +19,24 @@ button {
     margin: 1rem;
     padding: 2px 0.5rem;
     border-radius: 5px;
-    border: 1px solid variables.$primary-button-color;
     &.primary-btn {
-        color: variables.$secondary-button-color;
-        background-color: variables.$primary-button-color;
+        color: variables.$color-five;
+        background-color: variables.$color-four;
+        border: 1px solid variables.$color-four;
+        &:hover {
+            cursor: pointer;
+            background-color: variables.$color-three;
+        }
     }
     &.secondary-btn {
-        color: variables.$primary-button-color;
-        background-color: variables.$secondary-button-color;
+        color: variables.$color-two;
+        background-color: variables.$color-five;
+        border: 1px solid variables.$color-four;
+        &:hover {
+            cursor: pointer;
+            background-color: variables.$color-four;
+            color: variables.$color-five;
+        }
     }
     img {
         width: 1rem;
